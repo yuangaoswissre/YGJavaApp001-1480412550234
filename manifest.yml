@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: YGJavaApp001
+  host: YGJavaApp001
+  disk_quota: 1024M
+  services:
+  - YGJavaApp001-cloudantNoSQLDB
